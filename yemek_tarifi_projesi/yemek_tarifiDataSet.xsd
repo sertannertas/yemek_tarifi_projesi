@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="yemek_tarifiDataSet" targetNamespace="http://tempuri.org/yemek_tarifiDataSet.xsd" xmlns:mstns="http://tempuri.org/yemek_tarifiDataSet.xsd" xmlns="http://tempuri.org/yemek_tarifiDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="yemek_tarifiConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="yemek_tarifiConnectionString (Settings)" PropertyReference="ApplicationSettings.yemek_tarifi_projesi.Properties.Settings.GlobalReference.Default.yemek_tarifiConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="kisiTableAdapter" GeneratorDataComponentClassName="kisiTableAdapter" Name="kisi" UserDataComponentName="kisiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="yemek_tarifiConnectionString (Settings)" DbObjectName="kisi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ad, soyad FROM kisi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ad" DataSetColumn="ad" />
+              <Mapping SourceColumn="soyad" DataSetColumn="soyad" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="masaTableAdapter" GeneratorDataComponentClassName="masaTableAdapter" Name="masa" UserDataComponentName="masaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="yemek_tarifiConnectionString (Settings)" DbObjectName="masa" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT masa_adi FROM masa</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="masa_adi" DataSetColumn="masa_adi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="randevuTableAdapter" GeneratorDataComponentClassName="randevuTableAdapter" Name="randevu" UserDataComponentName="randevuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="yemek_tarifiConnectionString (Settings)" DbObjectName="randevu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT tarih, saat FROM randevu</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tarih" DataSetColumn="tarih" />
+              <Mapping SourceColumn="saat" DataSetColumn="saat" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="yemekTableAdapter" GeneratorDataComponentClassName="yemekTableAdapter" Name="yemek" UserDataComponentName="yemekTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="yemek_tarifiConnectionString (Settings)" DbObjectName="yemek" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT yemek_ad FROM yemek</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="yemek_ad" DataSetColumn="yemek_ad" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="yemek_tarifiDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="yemek_tarifiDataSet" msprop:Generator_UserDSName="yemek_tarifiDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="kisi" msprop:Generator_TableClassName="kisiDataTable" msprop:Generator_TableVarName="tablekisi" msprop:Generator_TablePropName="kisi" msprop:Generator_RowDeletingName="kisiRowDeleting" msprop:Generator_RowChangingName="kisiRowChanging" msprop:Generator_RowEvHandlerName="kisiRowChangeEventHandler" msprop:Generator_RowDeletedName="kisiRowDeleted" msprop:Generator_UserTableName="kisi" msprop:Generator_RowChangedName="kisiRowChanged" msprop:Generator_RowEvArgName="kisiRowChangeEvent" msprop:Generator_RowClassName="kisiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ad" msprop:Generator_ColumnVarNameInTable="columnad" msprop:Generator_ColumnPropNameInRow="ad" msprop:Generator_ColumnPropNameInTable="adColumn" msprop:Generator_UserColumnName="ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="soyad" msprop:Generator_ColumnVarNameInTable="columnsoyad" msprop:Generator_ColumnPropNameInRow="soyad" msprop:Generator_ColumnPropNameInTable="soyadColumn" msprop:Generator_UserColumnName="soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="masa" msprop:Generator_TableClassName="masaDataTable" msprop:Generator_TableVarName="tablemasa" msprop:Generator_TablePropName="masa" msprop:Generator_RowDeletingName="masaRowDeleting" msprop:Generator_RowChangingName="masaRowChanging" msprop:Generator_RowEvHandlerName="masaRowChangeEventHandler" msprop:Generator_RowDeletedName="masaRowDeleted" msprop:Generator_UserTableName="masa" msprop:Generator_RowChangedName="masaRowChanged" msprop:Generator_RowEvArgName="masaRowChangeEvent" msprop:Generator_RowClassName="masaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="masa_adi" msprop:Generator_ColumnVarNameInTable="columnmasa_adi" msprop:Generator_ColumnPropNameInRow="masa_adi" msprop:Generator_ColumnPropNameInTable="masa_adiColumn" msprop:Generator_UserColumnName="masa_adi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="randevu" msprop:Generator_TableClassName="randevuDataTable" msprop:Generator_TableVarName="tablerandevu" msprop:Generator_TablePropName="randevu" msprop:Generator_RowDeletingName="randevuRowDeleting" msprop:Generator_RowChangingName="randevuRowChanging" msprop:Generator_RowEvHandlerName="randevuRowChangeEventHandler" msprop:Generator_RowDeletedName="randevuRowDeleted" msprop:Generator_UserTableName="randevu" msprop:Generator_RowChangedName="randevuRowChanged" msprop:Generator_RowEvArgName="randevuRowChangeEvent" msprop:Generator_RowClassName="randevuRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tarih" msprop:Generator_ColumnVarNameInTable="columntarih" msprop:Generator_ColumnPropNameInRow="tarih" msprop:Generator_ColumnPropNameInTable="tarihColumn" msprop:Generator_UserColumnName="tarih" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="saat" msprop:Generator_ColumnVarNameInTable="columnsaat" msprop:Generator_ColumnPropNameInRow="saat" msprop:Generator_ColumnPropNameInTable="saatColumn" msprop:Generator_UserColumnName="saat" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="yemek" msprop:Generator_TableClassName="yemekDataTable" msprop:Generator_TableVarName="tableyemek" msprop:Generator_TablePropName="yemek" msprop:Generator_RowDeletingName="yemekRowDeleting" msprop:Generator_RowChangingName="yemekRowChanging" msprop:Generator_RowEvHandlerName="yemekRowChangeEventHandler" msprop:Generator_RowDeletedName="yemekRowDeleted" msprop:Generator_UserTableName="yemek" msprop:Generator_RowChangedName="yemekRowChanged" msprop:Generator_RowEvArgName="yemekRowChangeEvent" msprop:Generator_RowClassName="yemekRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="yemek_ad" msprop:Generator_ColumnVarNameInTable="columnyemek_ad" msprop:Generator_ColumnPropNameInRow="yemek_ad" msprop:Generator_ColumnPropNameInTable="yemek_adColumn" msprop:Generator_UserColumnName="yemek_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

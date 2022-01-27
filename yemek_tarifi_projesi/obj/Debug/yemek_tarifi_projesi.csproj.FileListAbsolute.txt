@@ -1,0 +1,10 @@
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\bin\Debug\yemek_tarifi_projesi.exe.config
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\bin\Debug\yemek_tarifi_projesi.exe
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\bin\Debug\yemek_tarifi_projesi.pdb
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\obj\Debug\yemek_tarifi_projesi.csprojResolveAssemblyReference.cache
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\obj\Debug\yemek_tarifi_projesi.ana_menu.resources
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\obj\Debug\yemek_tarifi_projesi.Properties.Resources.resources
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\obj\Debug\yemek_tarifi_projesi.csproj.GenerateResource.Cache
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\obj\Debug\yemek_tarifi_projesi.exe
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\obj\Debug\yemek_tarifi_projesi.pdb
+c:\users\oresta\documents\visual studio 2015\Projects\yemek_tarifi_projesi\yemek_tarifi_projesi\obj\Debug\yemek_tarifi_projesi.yemek_kayit.resources
